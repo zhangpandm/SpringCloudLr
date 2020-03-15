@@ -5,7 +5,7 @@
     <artifactId>springCloud2020</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>sc-provider-8001</artifactId>
+  <artifactId>sc-provider-8003</artifactId>
   <dependencies>
   
      <dependency>
