@@ -12,14 +12,14 @@ import com.netflix.loadbalancer.RandomRule;
 public class ZPConfig {
 	
 	@Bean
-	@LoadBalanced
+	@LoadBalanced//ribbon 负载均衡器
 	public RestTemplate getRestTemplate(){
 		return new RestTemplate();
 	}
+    // 配置切换负载均衡规则算法
 	@Bean
 	public IRule getIRule(){
-		return new RandomRule();
-		
+		return new  RandomRule();
 	}
 }
  
