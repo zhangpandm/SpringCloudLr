@@ -1,0 +1,12 @@
+server:
+  port: 8001
+eureka: 
+  instance:
+    instanceId: sc-provider-8001
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+spring:
+  application:
+    name: sc-provider
+    
